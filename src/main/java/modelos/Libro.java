@@ -69,6 +69,13 @@ public class Libro {
         this.disponible = disponible;
     }
     
+    @Override
+            public String toString(){
+            
+                return "Libro[Isbn:" + isbn + " Titulo:" + titulo +" Autor:" + autor +" Genero:" + 
+                        genero +" Año de publicacion:" + aniopublicacion +" Disponible:" + disponible + "]";
+            }
+    
     
 }
 
